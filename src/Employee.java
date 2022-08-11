@@ -48,4 +48,8 @@ public class Employee {
     public String toString() {
         return id + ". " + name + ". Отдел №" + department + ". Зарплата " + wages + " р.";
     }
+
+    public String toStringWODepartment() {
+        return id + ". " + name + ". Зарплата " + wages + " р.";
+    }
 }
